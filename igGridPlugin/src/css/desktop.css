@@ -1,0 +1,33 @@
+.plugin-space-heading {
+  font-size: 1.5rem;
+  margin: 0.8rem;
+}
+.plugin-space-message {
+  display: inline-block;
+  font-size: 1.2em;
+  margin: 0.8rem;
+  margin-top: 0;
+}
+
+
+/* igGrid */
+#grid .ui-widget{
+  font-size: 1em;
+}
+
+.ui-iggrid table tbody td {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis; /* Safari */
+  -o-text-overflow: ellipsis; /* Opera */
+}
+.numberCell{
+    text-align: right;
+}
+#grid_container > .ui-widget-header{
+    background: #F3F3F3;
+}
+
+#ui-datepicker-div.ui-igedit-dropdown{
+    z-index: 10000 !important;
+}

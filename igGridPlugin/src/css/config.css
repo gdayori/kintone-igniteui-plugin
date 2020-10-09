@@ -1,0 +1,29 @@
+.settings-heading {
+  padding: 1em 0;
+}
+
+.kintoneplugin-input-text {
+  width: 20em;
+}
+
+/* igGrid */
+#grid .ui-widget{
+  font-size: 1em;
+}
+
+.ui-iggrid table tbody td {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis; /* Safari */
+  -o-text-overflow: ellipsis; /* Opera */
+}
+.numberCell{
+    text-align: right;
+}
+#grid_container > .ui-widget-header{
+    background: #F3F3F3;
+}
+
+#ui-datepicker-div.ui-igedit-dropdown{
+    z-index: 10000 !important;
+}

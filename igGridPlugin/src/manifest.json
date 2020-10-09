@@ -1,0 +1,66 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "desktop": {
+    "js": [
+      "https://js.cybozu.com/jquery/3.5.0/jquery.min.js",
+      "https://js.cybozu.com/jqueryui/1.12.1/jquery-ui.min.js",
+      "igniteui/js/i18n/infragistics-ja.js",
+      "igniteui/js/infragistics.core.js",
+      "igniteui/js/infragistics.lob.js",
+      "igniteui/js/modules/i18n/regional/infragistics.ui.regional-ja.js",
+      "js/igCommon.js",
+      "js/desktop.js"
+    ],
+    "css": [
+      "css/51-modern-default.css",
+      "css/desktop.css",
+      "https://cdn-na.infragistics.com/igniteui/2019.2/latest/css/themes/infragistics/infragistics.theme.css",
+      "https://cdn-na.infragistics.com/igniteui/2019.2/latest/css/structure/infragistics.css"
+    ]
+  },
+  "icon": "image/icon.png",
+  "config": {
+    "html": "html/config.html",
+    "js": [
+      "https://js.cybozu.com/jquery/3.5.0/jquery.min.js",
+      "https://js.cybozu.com/jqueryui/1.12.1/jquery-ui.min.js",
+      "igniteui/js/i18n/infragistics-ja.js",
+      "igniteui/js/infragistics.core.js",
+      "igniteui/js/infragistics.lob.js",
+      "igniteui/js/modules/i18n/regional/infragistics.ui.regional-ja.js",
+      "js/igCommon.js",
+      "js/config.js"
+    ],
+    "css": [
+      "css/51-modern-default.css",
+      "css/config.css",
+      "https://cdn-na.infragistics.com/igniteui/2019.2/latest/css/themes/infragistics/infragistics.theme.css",
+      "https://cdn-na.infragistics.com/igniteui/2019.2/latest/css/structure/infragistics.css"
+    ],
+    "required_params": [
+      "columns"
+    ]
+  },
+  "name": {
+    "en": "igGridPlugin"
+  },
+  "description": {
+    "en": "Robust grid UI",
+    "ja": "高機能で使いやすい一覧表です。"
+  },
+  "homepage_url": {
+    "en": "https://www.infragistics.com/products/ignite-ui",
+    "ja": "https://jp.infragistics.com/products/ignite-ui"
+  },
+  "mobile": {
+    "js": [
+      "https://js.cybozu.com/jquery/3.3.1/jquery.min.js",
+      "js/mobile.js"
+    ],
+    "css": [
+      "css/mobile.css"
+    ]
+  }
+}
